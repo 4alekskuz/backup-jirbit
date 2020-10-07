@@ -1,5 +1,6 @@
 #sudo crontab –e
 # m h dom mon dow user  command
+
 0 23   * * *  /usr/local/bin/jirbit-backup.sh
 0 2    * * *   /usr/local/bin/db_backup.sh
 0 3    * * *   /usr/local/bin/clearbackup.sh /var/atlassian/application-data/confluence/backups/ 5
