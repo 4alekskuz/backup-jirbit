@@ -49,4 +49,4 @@ rm -r $BACKUP_DIR/$BACKUP_DATE
 
 find $BACKUP_DIR/*.tar -mtime +$BACKUP_AGE -type f -delete
 
-#first commit in new branch
+#cp $BACKUP_DIR/$BACKUP_DATE.tar /mnt/remoteshare
