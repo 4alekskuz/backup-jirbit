@@ -49,4 +49,4 @@ rm -r $BACKUP_DIR/$BACKUP_DATE
 
 find $BACKUP_DIR/*.tar -mtime +$BACKUP_AGE -type f -delete
 
-#cp $BACKUP_DIR/$BACKUP_DATE.tar /mnt/remoteshare
+#cp $BACKUP_DIR/$BACKUP_FILE_FULL.tar /mnt/remoteshare
