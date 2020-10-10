@@ -19,7 +19,7 @@ BACKUP_DATE=$(date +%Y-%m-%d)
 BACKUP_FILE_FULL="$HOSTNAME"-backup-"$BACKUP_DATE".tar
 BACKUP_FILE_HOME="$HOSTNAME"-atlassian-home-"$BACKUP_DATE".tar.gz
 #BACKUP_FILE_INST="$HOSTNAME"-atlassian-inst-"$BACKUP_DATE".tar.gz
-BACKUP_AGE=3
+BACKUP_AGE=2
 
 DB_BITB=bitbucketdb
 DB_CONF=confluencedb
