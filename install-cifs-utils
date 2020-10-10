@@ -1,0 +1,6 @@
+#установка необходимых утилит
+sudo apt install cifs-utils
+#монтирование удаленной общей папки на Windows-хосте
+sudo mount -t cifs //192.168.5.224/Backup.Store /mnt/Backup.Store -o username=netbackup,password=*****,rw,uid=*****,gid=*****
+#добавить в backup-jirbit.sh
+cp $BACKUP_DIR/$BACKUP_FILE_FULL /mnt/Backup.Store
